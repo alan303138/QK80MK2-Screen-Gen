@@ -99,10 +99,14 @@ shift_grid(char_to_grid("A"), up=1, left=1)
 ## 預覽工具
 
 ```bash
+# 指定檔案
+python visualize.py alan_scroll.tabml
+
+# 不帶參數 → 互動選擇目錄下的 .tabml 檔
 python visualize.py
 ```
 
-用 tkinter 視覺化播放 `via_lighting_7_7.tabml` 的動畫內容。
+自動偵測檔案中的 LED 顏色並以 tkinter 視覺化播放動畫。
 
 ## .tabml 檔案格式
 
